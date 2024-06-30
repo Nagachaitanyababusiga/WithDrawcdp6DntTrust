@@ -33,8 +33,11 @@
   border-radius: 80px;
   background-color: #c7d2fe;
   color: #7c3aed;
-  text-align: center;
-  align-content: center;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   margin-right: 10px;
 }
 
@@ -80,10 +83,10 @@
   .cont-2 {
     width: 90%;
   }
-  .sec-cont{
+  .sec-cont {
     width: 100%;
   }
-  .lister{
+  .lister {
     width: 100%;
   }
 }

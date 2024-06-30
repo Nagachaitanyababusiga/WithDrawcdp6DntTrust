@@ -21,7 +21,9 @@ class CashWithdrawal extends Component {
       <div className="cont-1">
         <div className="cont-2">
           <div className="head-cont">
-            <p className="logo">S</p>
+            <div className="logo">
+              <p>S</p>
+            </div>
             <p>SNC BABU</p>
           </div>
           <div className="sec-cont">
