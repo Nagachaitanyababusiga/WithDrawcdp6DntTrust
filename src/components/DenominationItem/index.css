@@ -1,0 +1,23 @@
+.buttoner {
+  width: 40%;
+  background-color: #585076;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: #ffffff;
+  color: #d4d2db;
+  border-style: solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin: 8px;
+}
+
+@media (max-width: 575px) {
+  .buttoner {
+    width: 47%;
+    height: 30px;
+    margin: 2px;
+  }
+}
